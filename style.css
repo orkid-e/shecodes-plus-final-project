@@ -1,3 +1,50 @@
+body {
+    background: rgb(193, 178, 216);
+}
+
+.content {
+    border: 2px, solid, rgb(166, 148, 194);
+    border-radius: 18px;
+    padding: 50px;
+    margin-top: 80px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    background: rgb(166, 148, 194);
+    box-shadow: 8px 8px 8px #5f5f5f;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=search] {
+    background: rgb(180, 162, 209);
+    font-style: italic;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    border: 2px, solid, rgb(250, 213, 245);
+    border-radius: 8px;
+}
+
+.button {
+    background: rgb(180, 162, 209);
+    color: rgb(250, 213, 245);
+    display: block;
+    margin: 0 auto;
+    padding:10px 15px;
+    border: 2px, solid, rgb(250, 213, 245);
+    border-radius: 8px;
+}
+
+.button:hover {
+    background: rgb(166, 148, 194);
+    color: rgb(250, 213, 245);
+    cursor: pointer;
+}
+
 h1 {
     font-size: 30px;
     color: rgb(250, 213, 245);
@@ -15,7 +62,7 @@ h2 {
 
 h3 {
     font-size: 17px;
-    color: rgb(213, 198, 235);
+    color: rgb(105, 92, 124);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     top: -40px;
@@ -23,29 +70,9 @@ h3 {
 
 }
 
-.form {
-    text-align: center;
-    background: rgb(193, 178, 216);
-    font-style: italic;
-}
-
 footer {
     text-align: center;
     font-family: monospace;
-    color:#4d4d4d
+    color:rgb(105, 92, 124);
 }
 
-body {
-    background: rgb(193, 178, 216);
-}
-.content {
-    border: 2px, solid, rgb(166, 148, 194);
-    border-radius: 18px;
-    padding: 50px;
-    margin-top: 80px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 20px;
-    background: rgb(166, 148, 194);
-    box-shadow: 8px 8px 8px #5f5f5f;
-}
