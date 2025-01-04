@@ -11,7 +11,7 @@ body {
     margin-right: 30%;
     margin-bottom: 20px;
     background: rgb(166, 148, 194);
-    box-shadow: 8px 8px 8px #5f5f5f;
+    box-shadow: 6px 6px 6px #5f5f5f;
 }
 
 .form {
@@ -19,22 +19,33 @@ body {
     justify-content: center;
 }
 
+hr {
+    background-color: white;
+    border: 0.5px solid rgba(250, 213, 245, 0.877);
+    position: relative;
+    top: 15px;
+    
+}
 input[type=search] {
-    background: rgb(180, 162, 209);
+    background: rgb(230, 203, 233);
     font-style: italic;
     display: block;
     margin: 0 auto;
+    position: relative;
+    left: 50px;
     width: 40%;
     border: 2px, solid, rgb(250, 213, 245);
     border-radius: 8px;
 }
 
 .button {
-    background: rgb(180, 162, 209);
-    color: rgb(250, 213, 245);
+    background: rgb(230, 203, 233);
+    color: rgb(105, 92, 124);
     display: block;
     margin: 0 auto;
     padding:10px 15px;
+    position: relative;
+    right: 95px;
     border: 2px, solid, rgb(250, 213, 245);
     border-radius: 8px;
 }
@@ -46,27 +57,41 @@ input[type=search] {
 }
 
 h1 {
-    font-size: 30px;
-    color: rgb(250, 213, 245);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    top: 48px;
-    right: -50px;
-}
-
-h2 {
-    font-size: 58px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(250, 213, 245);
-}
-
-h3 {
-    font-size: 17px;
+    font-family: "Coming Soon", cursive;
+    font-weight: 600;
+    font-style: normal;
     color: rgb(105, 92, 124);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
-    top: -40px;
-    right: -30px;
+    top: 60px;
+    right: -65px;
+    font-size: 30px;
+
+}
+
+.emoji {
+    font-size: 40px;
+
+}
+h2 {
+    font-family: "Coming Soon", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(250, 213, 245);
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+p {
+    font-family: "Coming Soon", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(105, 92, 124);
+    position: relative;
+    top: 10px;
+    top: -20px;
+    font-size: 13px;
 
 }
 
