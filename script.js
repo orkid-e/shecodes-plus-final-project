@@ -15,6 +15,8 @@ function newCity(event) {
     let windSpeedElement = document.querySelector("#wind-speed");
     let timeElement = document.querySelector("#time");
     let date = new Date(response.data.time * 1000);
+    let iconElement = document.querySelector("weather-icon");
+  
 
     let temperature = Math.round(response.data.temperature.current);
     let h2 = document.querySelector("h2");
@@ -23,6 +25,7 @@ function newCity(event) {
     humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
     windSpeedElement.innerHTML= `${response.data.wind.speed}km/h`;
     timeElement.innerHTML = formatDate(date);
+    iconElement.innerHTML = `img <src="${response.data.condition.icon_url}" class="weather-icon" />`;
   }
 
   function formatDate(date) {
