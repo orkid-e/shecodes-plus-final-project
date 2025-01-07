@@ -3,16 +3,19 @@ function newCity(event) {
     let searchInput = document.querySelector("#search-form-input");
     searchCity(searchInput.value);
   }
+
   let searchFormElement = document.querySelector("#search-form");
   searchFormElement.addEventListener("submit", newCity);
-  
+ 
   function displayTemp(response) {
     let h1 = document.querySelector("h1");
     h1.innerHTML = response.data.city;
-  
+    let descriptionElement = document.querySelector("#description");
+    
     let temperature = Math.round(response.data.temperature.current);
     let h2 = document.querySelector("h2");
     h2.innerHTML = `${temperature}°C`;
+    descriptionElement.innerHTML = response.data.condition.description;
   }
   
   function searchCity(city) {
