@@ -11,11 +11,13 @@ function newCity(event) {
     let h1 = document.querySelector("h1");
     h1.innerHTML = response.data.city;
     let descriptionElement = document.querySelector("#description");
-    
+    let humidityElement = document.querySelector("#humidity");
+
     let temperature = Math.round(response.data.temperature.current);
     let h2 = document.querySelector("h2");
     h2.innerHTML = `${temperature}°C`;
     descriptionElement.innerHTML = response.data.condition.description;
+    humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   }
   
   function searchCity(city) {
