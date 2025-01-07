@@ -13,6 +13,8 @@ function newCity(event) {
     let descriptionElement = document.querySelector("#description");
     let humidityElement = document.querySelector("#humidity");
     let windSpeedElement = document.querySelector("#wind-speed");
+    let timeElement = document.querySelector("#time");
+    let date = new Date(response.data.time * 1000);
 
     let temperature = Math.round(response.data.temperature.current);
     let h2 = document.querySelector("h2");
@@ -20,6 +22,8 @@ function newCity(event) {
     descriptionElement.innerHTML = response.data.condition.description;
     humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
     windSpeedElement.innerHTML= `${response.data.wind.speed}km/h`;
+    timeElement.innerHTML = `${date.getDay()}, ${date.getHours()}:${date.getMinutes()}`;
+
   }
   
   function searchCity(city) {
