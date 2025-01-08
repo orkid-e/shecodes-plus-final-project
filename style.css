@@ -73,6 +73,7 @@ h1 {
     position: relative;
     top: 5px;
 }
+
 h2 {
     font-family: "Coming Soon", cursive;
     font-weight: 600;
@@ -92,6 +93,28 @@ p {
     top: -80px;
     line-height: 25px;
     font-size: 15px;
+}
+
+.weather-forecast-date {
+    font-family: "Coming Soon", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    text-align:center;
+    color: rgb(105, 92, 124);
+}
+
+.weather-forecast-icon {
+    text-align: center;
+    font-size: 15px;
+}
+
+.weather-forecast-temp {
+    font-family: "Coming Soon", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 13px;
+    color: rgb(105, 92, 124);
 }
 
 footer {
