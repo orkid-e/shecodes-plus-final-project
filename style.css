@@ -97,8 +97,12 @@ p {
 
 .weather-forecast {
     position: relative;
-    bottom: 40px;
+    top: -40px;
+    display: flex;
+    justify-content: center;
 }
+
+
 .weather-forecast-date {
     text-align: center;
     font-family: "Coming Soon", cursive;
