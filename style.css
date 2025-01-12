@@ -38,6 +38,7 @@ input[type=search] {
     width: 40%;
     border: 2px, solid, rgb(250, 213, 245);
     border-radius: 8px;
+    box-shadow: 4px 4px 4px #4e4e4e;
 }
 
 .button {
@@ -51,6 +52,7 @@ input[type=search] {
     right: 85px;
     border: 2px, solid, rgb(250, 213, 245);
     border-radius: 8px;
+    box-shadow: 4px 4px 4px #4e4e4e;
 }
 
 .button:hover {
@@ -131,8 +133,10 @@ p {
 
 .weather-forecast-temp {
     text-align:center;
-    font-family: cursive;
+    font-family: "Coming Soon", cursive;
     color: rgb(105, 92, 124);
+    font-weight: 600;
+    font-style: normal;
     font-size: 15px;
     display: block;
     margin: 0 auto;
