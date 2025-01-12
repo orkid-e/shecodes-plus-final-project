@@ -1,5 +1,5 @@
 body {
-    background: rgb(193, 178, 216);
+    background: rgb(230, 203, 233);
 }
 
 .content {
@@ -95,6 +95,14 @@ p {
     font-size: 15px;
 }
 
+#humidity {
+    color:rgb(233, 213, 250);
+}
+
+#wind-speed {
+    color:rgb(233, 213, 250);
+}
+
 .weather-forecast {
     position: relative;
     top: -40px;
@@ -123,10 +131,8 @@ p {
 
 .weather-forecast-temp {
     text-align:center;
-    font-family: "Coming Soon", cursive;
+    font-family: cursive;
     color: rgb(105, 92, 124);
-    font-weight: 600;
-    font-style: normal;
     font-size: 15px;
     display: block;
     margin: 0 auto;

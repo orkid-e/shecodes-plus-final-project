@@ -75,7 +75,7 @@ function getForecast(city) {
     <img src="${day.condition.icon_url}" class="weather-forecast-icon" /> 
     </div>
     <div class="weather-forecast-temps">
-        <div class="weather-forecast-temp"> ${Math.round(day.temperature.minimum)}° <br /> ${Math.round(day.temperature.maximum)}° </div>
+        <div class="weather-forecast-temp"> ${Math.round(day.temperature.minimum)}° <br /> <strong> ${Math.round(day.temperature.maximum)}° </strong> </div>
     </div>
 </div>
 `;
